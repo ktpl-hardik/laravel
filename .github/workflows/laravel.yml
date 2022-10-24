@@ -95,7 +95,7 @@ jobs:
       
       matrix:
 
-        server: ${{ fromJson(needs.create-deployment-artifacts..outputs.deployment-matrix) }}
+        server: ${{ fromJson(needs.create-deployment-artifacts.outputs.deployment-matrix) }}
 
     steps:
 
