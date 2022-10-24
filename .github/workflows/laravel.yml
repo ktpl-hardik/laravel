@@ -73,17 +73,17 @@ jobs:
 
         id: export-deployment-mtrix
 
-        run: |
+        # run: |
 
-          JSON="$(cat ./deployment-config.json)"
+        #   JSON="$(cat ./deployment-config.json)"
 
-          JSON="$(JSON//'%'/'%25')"
+        #   JSON="$(JSON//'%'/'%25')"
 
-          JSON="$(JSON//$'\n'/'%0A')"
+        #   JSON="$(JSON//$'\n'/'%0A')"
 
-          JSON="$(JSON//$'\r'/'%0D')"
+        #   JSON="$(JSON//$'\r'/'%0D')"
 
-          echo "::set-output name=deployment-matrix::$JSON"
+        #   echo "::set-output name=deployment-matrix::$JSON"
 
   prepare-release-on-servers:
 
