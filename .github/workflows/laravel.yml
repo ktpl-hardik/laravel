@@ -33,7 +33,7 @@ jobs:
 
       - name: Configure php 8.0
 
-        uses: hardik/setup-php@master
+        uses: shivammathur/setup-php@master
 
         with:
 
