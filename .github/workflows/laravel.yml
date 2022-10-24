@@ -75,7 +75,7 @@ jobs:
 
         run: |
 
-          JSON="$(cat ./deploment-config.json)"
+          JSON="$(cat ./deployment-config.json)"
 
           JSON="$(JSON//'%'/'%25')"
 
