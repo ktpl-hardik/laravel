@@ -1,0 +1,11 @@
+[{
+    "name": "server-1",
+    "ip": "23.22.82.68",
+    "username": "guthubactions",
+    "port": "22",
+    "beforeHooks": "",
+    "afterhooks": "",
+    //"path": "/var/www/vhosts/laravel.krishtechnolabs.net/webroot"
+    "path": "/var/www/html"
+
+}]
